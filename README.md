@@ -40,10 +40,15 @@ video_path = "C:/Users/User/Desktop/video.mp4"
 Once the process is complete, the extracted frames will be saved in the video_frames folder. Example:
 
 video_frames/
+
 │── frame_0000.png
+
 │── frame_0001.png
+
 │── frame_0002.png
+
 │── frame_0003.png
+
 │── ...
 At the end of execution, you will see a message like this:
 ```
@@ -53,13 +58,21 @@ All frames have been saved in the video_frames folder. A total of 1500 frames we
 📂 Output Folder Structure
 
 📁 Working Directory
+
 │── extract_frames.py  # Python script
+
 │── VID-20250313-WA0006.mp4  # Your video file
+
 │── 📂 video_frames
+
 │   │── frame_0000.png
+
 │   │── frame_0001.png
+
 │   │── frame_0002.png
+
 │   │── frame_0003.png
+
 │   │── ...
 
 
